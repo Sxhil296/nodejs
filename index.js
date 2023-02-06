@@ -28,6 +28,9 @@
 // const superman = new SuperHero("Superman");
 // console.log(superman.getName())
 
-const add = require("./math");
+const math = require("./math");
 
+const { add, subtract } = math
+ 
 console.log(add(2, 4));
+console.log(subtract(4, 2));
